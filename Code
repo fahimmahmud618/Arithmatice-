@@ -56,7 +56,7 @@ int Calculate_postfix(char postfix[])
 
     while(postfix[top])
     {
-        if(digit_Check(postfix[top]))
+        if(digit_Check(postfix[top]))  
         {
             n=1;
             a=0;
